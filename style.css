@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("birthday_cake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Monserrat", sans-serif;
+  margin: 0;
+  color: goldenrod;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  margin-top: 10rem;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countdown-element {
+  text-align: center;
+}
+
+.countdown-element span {
+  font-size: 1.5rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
